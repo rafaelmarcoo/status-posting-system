@@ -1,0 +1,113 @@
+h1 
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: antiquewhite;
+}
+
+.content
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    padding: 10px 20px 20px;
+}
+
+.student 
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.student a
+{
+    color: beige;
+    text-decoration: none;
+}
+
+.links
+{
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+}
+
+.links li 
+{
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.link_house
+{
+    background-color: #996633;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.links .link_house
+{
+    background-color: #996633;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.links a:link
+{
+    color: beige;
+    text-decoration: none;
+}
+
+.links a:visited
+{
+    color: beige;
+    text-decoration: none;
+}
+
+.button 
+{
+    background-color: #996633;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 5px;
+    color: beige;
+}
+
+.postform
+{
+    font-size: 20px;
+}
+
+.postform input[type=text]
+{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.content a
+{
+    color: beige;
+    text-decoration: none;
+}
+
+.content .link_house
+{
+    background-color: #996633;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+

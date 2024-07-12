@@ -1,0 +1,31 @@
+SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'statuses'"
+
+
+CREATE TABLE statuses 
+    (
+    status_code VARCHAR(5) NOT NULL, 
+    status VARCHAR(250) NOT NULL, 
+    share VARCHAR(50) NOT NULL,
+    date DATE NOT NULL,
+    permission VARCHAR(50) NOT NULL
+    );
+
+
+
+SELECT * FROM statuses WHERE status_code LIKE '$status_code';
+
+
+
+INSERT INTO statuses (status_code, status, share, date, permission) VALUES ('$status_code', '$status', '$share', '$date', '$permission');
+
+
+
+SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'statuses';
+
+
+
+SELECT * FROM statuses WHERE status LIKE '%$search%';
+
+
+
+DROP TABLE `statuses`;

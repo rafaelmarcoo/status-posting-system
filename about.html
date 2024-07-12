@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=width-device, initial-scale=1"/>
+        <title>About</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="content">
+            <h1>Report Webpage</h1>
+
+            <!-- FAQ section -->
+            <h4>Frequently Asked Questions</h4>
+            <ul>
+                <li>What special features have you done or attempted in creating the website?</li>
+                <p> - I made a simple, intuitive user interface for this website coursework. I housed the links so they look like buttons to keep it uniform with the rest of the website. </p>
+                <p> - I used a lot of CSS to make the website nice and intuitive.</p>
+
+                <li>Which part(s) did you have trouble with?</li>
+                <p> - I had troubles with poststatusprocess.php where I was initialising variables from user input. It was for permission. I wanted it to initialise even with multi-valued permission inputs. But by looking through past lecture slides and reading through different forums online I was able to solve it. It also involved altering poststatusform.php as well.</p>
+                <p> - I also had a couple of problems making regular expressions for checking input validity. It took a lot of trial and error.</p>
+                <p>- It also took trial and error to find out which method was the most efficient way of checking validity. This involved trying SQL statements, experimenting with loops, etc.</p>
+
+                <li>What would you like to do better next time?</li>
+                <p> - I would probably make the user interface better next time I make a website, and would involve animation, etc.</p>
+                <p> - I would learn more through the slides, as most of the vital information like functions that I needed were in the lecture slides. So lesson for me is to go through them thoroughly.</p>
+
+                <li>What you have learnt along the way? Did you use any references or resources during this project? If so, please include the sources.</li>
+                <p> - I learned a lot making this website. It reinforced everything I have learned regarding HTML, CSS, PHP and SQL. It was very good revision and getting good experience with these languages. This was really fun to make.</p>
+                <p> - I used heaps of from online resources in order to create this website: </p>
+                <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">https://www.freecodecamp.org/learn/2022/responsive-web-design/</a><br><br>
+                <a href="https://www.w3schools.com/css/">https://www.w3schools.com/css/</a><br><br>
+                <a href="https://stackoverflow.com/questions/167576/check-if-table-exists-in-sql-server">https://stackoverflow.com/questions/167576/check-if-table-exists-in-sql-server</a><br><br>
+                <a href="https://www.w3schools.com/css/css_inline-block.asp">https://www.w3schools.com/css/css_inline-block.asp</a><br><br>
+                <a href="https://stackoverflow.com/questions/14290857/sql-select-where-field-contains-words">https://stackoverflow.com/questions/14290857/sql-select-where-field-contains-words</a><br><br>
+                <a href="https://stackoverflow.com/questions/336210/regular-expression-for-alphanumeric-and-underscores">https://stackoverflow.com/questions/336210/regular-expression-for-alphanumeric-and-underscores</a><br><br>
+                <a href="https://www.w3schools.com/css/css_padding.asp">https://www.w3schools.com/css/css_padding.asp</a><br><br>
+            </ul>
+
+            
+            <div class="links">
+                <!-- Button for resetting database -->
+                <form action="resetdb.php" method="post">
+                    <button class="button" type="submit" name="reset">Reset Database</button>
+                </form>
+                <br><br>
+                <!-- Link to home page -->
+                <a class="link_house" href="index.html">Return to homepage</a>
+            </div>
+        </div>
+    </body>
+</html>
