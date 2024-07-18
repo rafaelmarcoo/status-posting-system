@@ -1,6 +1,6 @@
 <?php
-    $host = "sql12.freemysqlhosting.net";
-    $user = "sql12719502";
-    $pswd = "hIDyIG3c1J";
-    $dbName = "sql12719502";
+    $host = "localhost";
+    $user = "root";
+    $pswd = "";
+    $dbName = "status_posting_system";
 ?>
